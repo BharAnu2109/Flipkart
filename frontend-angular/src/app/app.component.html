@@ -1,0 +1,21 @@
+<div class="app-container">
+  <header class="app-header">
+    <div class="header-content">
+      <h1>Flipkart</h1>
+      <nav>
+        <a routerLink="/">Home</a>
+        <a routerLink="/products">Products</a>
+        <a routerLink="/cart">Cart</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="app-main">
+    <app-product-list></app-product-list>
+    <router-outlet></router-outlet>
+  </main>
+  
+  <footer class="app-footer">
+    <p>&copy; 2024 Flipkart. All rights reserved.</p>
+  </footer>
+</div>
